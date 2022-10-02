@@ -1,0 +1,281 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+   
+   position: relative;
+}
+.header img {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container-fluid{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  
+  
+  
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.container-fluid h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 100px;
+  text-shadow: 0px 10px 10px rgba(148, 148, 139, 0.8);
+  
+}
+.loin-btn{
+  width: 100px;
+  padding: 8px 0;
+  outline: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  margin-right: 100px;
+  box-shadow: 0px 8px 8px rgba(148, 148, 139, 0.8);
+ 
+}
+.headings h2{
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 70px;
+  text-shadow: 0px 10px 10px rgba(148, 148, 139, 0.8);
+}
+.heading p{
+  margin: 18px 0;
+  color: #fff;
+  font-size: x-large;
+  font-weight: 800;
+}
+.input-group{
+  width: 90%;
+  max-width: 700px;
+  border-radius: 30px;
+  margin: auto;
+  padding: 2px;
+  background: #fff;
+ border: 1px solid black;
+  
+}
+.form-control{
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+  
+}
+.input-group-text{
+ 
+  width: 100px;
+  background-color: aqua !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+/* features */
+
+.features{
+  padding: 100px 0;
+}
+.features h1{
+  text-align: center;
+  padding-bottom: 100px;
+ 
+}
+.feature-img img{
+  width: 100%;
+}
+.price{
+  width: 60px;
+  height: 60px;
+  background: aqua;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+   left: 10px;
+   bottom: -25px;
+  
+}
+.feature-img{
+  position: relative;
+}
+.ratings{
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
+.fa-star,.fa-star-half-stroke{
+  font-size: 15px;
+  color: aqua;
+}
+.feature-details{
+  padding: 20px;
+  text-align: justify;
+}
+.feature-details h4{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature-details .icons{
+   margin-right:10px;
+}
+.feature-box{
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* gallery */
+
+.gallery h1{
+  text-align: center;
+  padding-bottom: 50px;
+ 
+}
+.gallery{
+  padding: 100px 0;
+  background: #efefef;
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4
+{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000; 
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+/* banner */
+.banner img{
+
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  
+}
+.banner {
+  height: 60%;
+  padding-top: -50%;
+} 
+.banner-hightlights{
+  padding: 70px 0;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 2500px;
+  width: 100%;
+}
+.booking-btn{
+  width: 120px;
+  padding: 8px 0;
+  outline: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.user-feedback{
+  padding: 100px 0;
+}
+.user-feedback h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+  .user-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+.user-review p
+{
+    padding: 50px 10px 10px 10px;
+}
+
+.user-feedback img
+{
+  width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.footer
+{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+    
+}
+.footer h1
+{
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer p{
+  text-align: justify;
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .logo
+{
+    padding-right: 10px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #efefef;
+}
